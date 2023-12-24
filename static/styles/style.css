@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit+Pro&display=swap');
+body{
+    background: linear-gradient(0deg, #ff0040 0%, #000000 79%);
+    font-family:Kanit,serif;
+}
+p{
+    color: beige;
+}
+.nav-link{
+    color: bisque;
+}
+.navbar-nav .nav-link.active{
+    color: beige;
+}
+.navbar-brand img{
+    width: 40px;
+}
+.navbar-toggler{
+    background-color: beige;
+}
+.nav-right{
+    color: bisque;
+background: linear-gradient(270deg, #ff0040 0%, #000000 79%);
+}
+.card{
+    color:beige;
+    background: linear-gradient(0deg, #ff0040 0%, #000000 79%);;
+}
+.card a{
+    color: beige;
+    text-decoration: none;
+}
+.slide-text{
+    color: beige;
+    margin: auto auto;
+}
+.footer-text{
+    color: beige;
+    margin: auto auto;
+}
+footer{
+    background: linear-gradient(0deg, #ff0040 0%, #000000 79%);
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-outline-primary{
+    background:linear-gradient(0deg, #ff0040 0%, #000000 79%);
+}
+.phoneanim{
+    animation: myAnim 2s ease 0s infinite normal forwards;
+    @keyframes myAnim {
+        0%,
+        100% {
+            transform: rotate(0deg);
+            transform-origin: 50% 50%;
+        }
+    
+        10% {
+            transform: rotate(8deg);
+        }
+    
+        20%,
+        40%,
+        60% {
+            transform: rotate(-10deg);
+        }
+    
+        30%,
+        50%,
+        70% {
+            transform: rotate(10deg);
+        }
+    
+        80% {
+            transform: rotate(-8deg);
+        }
+    
+        90% {
+            transform: rotate(8deg);
+        }
+    }
+}
+@media (max-width: 750px){
+    .carousel-indicators
+    display: none;
+}
